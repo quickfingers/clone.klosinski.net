@@ -1,0 +1,19 @@
+{
+  "name": "clone.klosinski.net",
+  "version": "1.0.0",
+  "description": "This serves as a repo for a collab exercise project with JM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickfingers/clone.klosinski.net.git"
+  },
+  "author": "bong jm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quickfingers/clone.klosinski.net/issues"
+  },
+  "homepage": "https://github.com/quickfingers/clone.klosinski.net#readme"
+}

@@ -1,2 +1,2 @@
 # clone.klosinski.net
-exercise project
+This serves as a repo for a collab exercise project with JM.

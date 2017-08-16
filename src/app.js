@@ -1,8 +1,2 @@
-console.log("let's get started");
-
-
- document.addEventListener('DOMContentLoaded', (e)=> {
-
- }, false);
-
+document.addEventListener("DOMContentLoaded",function(){function a(a){"undefined"!==typeof a&&a?(c.classList.add("offset-menu"),b.classList.add("show")):(c.classList.remove("offset-menu"),b.classList.remove("show"))}var c=document.querySelector("#app"),b=document.querySelector("#main-nav");document.querySelector("#menu").addEventListener("click",function(){a(!0)});b.querySelector(".close-btn").addEventListener("click",function(){a()})},!1);
 

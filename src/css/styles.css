@@ -2,19 +2,47 @@
     box-sizing: border-box;
 }
 
-h2 {
-	margin: 60px 0;
-	font-size: 48px;
+body {
+	font-family: 'AdelleSans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+  line-height: 1.42857143;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+h2,
+h3 {
+	font-family: 'Tiempos Headline',Georgia,"Times New Roman",Times,serif;
 	font-weight: 500;
 }
-p {
-	font-size: 24px;
-	line-height: 1.5;
-	font-weight: 100;
+
+h2 {
+	font-size: 48px;
+	margin: 60px auto;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+.intro {
+	font-size: 28px;
+	line-height: 1.7;
+	font-weight: 400;
 	text-align: center;
 	width: 75%;
-	margin: 0 auto 30px;
+	margin: 0 auto 60px;
 }
+
+.select-topic {
+		color: #1a1a1a;
+		text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+		margin: 30px auto;
+}
+
 
 #app {
 	position: relative;
@@ -68,6 +96,15 @@ p {
 	width: 100%;
 	flex-wrap: wrap;
 	justify-content: center;
+	/*border: 2px solid orange;*/
+
+}
+.image_container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/*border: 2px solid green;*/
 
 }
 
@@ -82,7 +119,6 @@ p {
 	margin: 20px;
 	padding: 20px;
 	list-style: none;
-
 }
 
 .main-nav a {
@@ -90,8 +126,32 @@ p {
 	text-decoration: none;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    width: 5%;
+.button {
+		display: block;
+		margin: 60px auto;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 13px 12px 13px;
+    width: 230px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.design {
+	width: 576px;
+	height: 340px;
+	margin: 60px auto;
+}
+
+.business {
+	display: flex;
+	width: 375px;
+	height: 224px;
+	justify-content: space-between;
+	margin: 60px auto;
 }

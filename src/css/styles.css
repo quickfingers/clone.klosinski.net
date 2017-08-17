@@ -161,14 +161,29 @@ h3 {
  -------------*/
  #blog {
 	display: flex;
+	width: 100%;
  }
 
 
  #blog .blog-row {
 	 display: flex;
+	 width: 100%;
+	 flex-wrap: nowrap;
+	 
  }
 
- #blog .blog-row:first-child .blog-item {
-	width: 40%;
+ #blog .blog-row .blog-item {
+	padding: 20px;
+	margin: 0;
 }
 
+#blog .blog-row .blog-item img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+#blog .blog-row .blog-item p {
+	margin: 10px 0;
+	padding: 0;
+}

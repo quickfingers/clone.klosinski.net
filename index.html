@@ -46,44 +46,73 @@
           </ul>
         </div>
       </div>
-    <div class="wrap">
+
+
     <nav class="container main-nav">
       <ul>
-        <li><a href="#">about</a></li>
-        <li><a href="#">portfolio</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
         <li><a href="#">project514</a></li>
-        <li><a href="#">blog</a></li>
+        <li><a href="#blog">blog</a></li>
         <li><a href="http://www.jey-em.com">contact</a></li>
       </ul>
     </nav>
 
-    <img class="container" src="src/img/klosinski.jpg">
+    <section id="about">
+      <img class="container" src="src/img/klosinski.jpg">
+      
+          <h2 class="container">about me</h2>
+      
+          <section class="intro">
+            <p>I'm a Front End Developer from Montreal, QC Canada.</p>
+      
+            <p>I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>
+          </section> <!-- /intro -->
+      
+          <button class="button">start here</button>
+    </section> <!-- /about -->
 
-    <h2 class="container">about me</h2>
+    <div id="blog"class="container">
 
-    <section class="intro">
-      <p>I'm a Front End Developer from Montreal, QC Canada.</p>
-
-      <p>I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>
-    </section> <!-- /intro -->
-
-    <button class="button">start here</button>
-    <div class="container">
       <h3 class="container">Blog</h3>
-      <a class="select-topic container" href="#menu">&#9776; SELECT TOPIC</a>
-      <div class="image_container">
-        <img class="design" src="src/img/blog/design_thinking.jpg">
-        <!-- <h4>BUSINESS PODCAST<h4>
-        <p>Design Thinking - how to easily use this method in your daily work</p> -->
-        <img class="design" src="src/img/blog/career_dev.jpg">
+
+      <div class="blog-row">
+
+          <div class="blog-item">
+              <img class="design" src="src/img/blog/design_thinking.jpg">          
+              <p> Lorem ipsum</p>  
+          </div>
+  
+          <div class="blog-item">
+              <img class="design" src="src/img/blog/career_dev.jpg">    
+              <p> Lorem ipsum</p>              
+          </div>
+
       </div>
-      <div class="image_container">
-        <img class="business" src="src/img/blog/productivity.jpg">
-        <img class="business" src="src/img/blog/business_design.jpg">
-        <img class="business" src="src/img/blog/case_study.jpg">
-      </div>
+
+
+      <div class="blog-row">
+          
+        <div class="blog-item">
+            <img class="design" src="src/img/blog/productivity.jpg">          
+            <p> Lorem ipsum</p>  
+        </div>
+
+        <div class="blog-item">
+            <img class="design" src="src/img/blog/productivity.jpg">    
+            <p> Lorem ipsum</p>              
+        </div>
+          
+        <div class="blog-item">
+            <img class="design" src="src/img/blog/productivity.jpg">    
+            <p> Lorem ipsum</p>              
+        </div>
+
+       </div>
+
+      <button class="button">load more</button>
+      
     </div>
-    <button class="button">load more</button>
     </div>
     <script src="src/app.js"></script>
   </body>

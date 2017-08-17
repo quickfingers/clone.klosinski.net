@@ -155,3 +155,20 @@ h3 {
 	justify-content: space-between;
 	margin: 60px auto;
 }
+
+/*----------------
+ blog 
+ -------------*/
+ #blog {
+	display: flex;
+ }
+
+
+ #blog .blog-row {
+	 display: flex;
+ }
+
+ #blog .blog-row:first-child .blog-item {
+	width: 40%;
+}
+

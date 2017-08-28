@@ -22,79 +22,270 @@
 
 <body>
 
-  <div id="main-nav">
-    <div class="close-btn" >
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-        <style type="text/css">
-            .st0{fill:none;stroke:#FFFFFF;stroke-width:0.9275;stroke-miterlimit:10;}
-            .st1{fill:#FFFFFF;}
-        </style>
-        <circle class="st0" cx="15.2" cy="15" r="13.4"/>
-        <polygon class="st1" points="15.2,13.7 11.2,9.8 9.9,11.1 13.9,15 9.9,18.9 11.2,20.2 15.2,16.3 19.1,20.2 20.4,18.9 16.5,15
-            20.4,11.1 19.1,9.8 "/>
-      </svg>
-    </div> <!-- end close-btn -->
-    <p>main nav content here</p>
-  </div> <!-- end main-nav -->
-
   <div id="app">
 
-    <div class="wrapper">
+    <div id="sticky-nav">
 
-      <div id="header">
-        <div id="menu" class="col"></div>
-        <div id="logo" class="col">
-          <h1>JEY-EM ESPLANA</h1>
-        </div>
-        <div id="social" class="col">
-          <ul>
-        <li>
-          <a href="http://www.facebook.com/jmesplana"><img class="icon" src="src/img/facebook_icon.svg" target="_blank" alt="facebook icon"></a>
-        </li>
-        <li>
-          <a href="http://www.twitter.com/jeyem"><img class="icon" src="src/img/twitter_icon.svg" target="_blank" alt="twitter icon"></a>
-        </li>
-        <li>
-          <a href="http://www.github.com/hammerhead79"><img class="icon" src="src/img/github_icon.svg" target="_blank" alt="github icon"></a>
-        </li>
-        <li>
-          <a href="http://www.linkedin.com/in/jmesplana"><img class="icon" src="src/img/linkedin_icon.svg" target="_blank" alt="linkedin icon"></a>
-        </li>
-          </ul>
-        </div> <!-- end social -->
-      </div> <!-- end header -->
+      <div class="menu-btn col"></div>
 
-      <div id="navigation">
+      <div class="logo col"><h1>JEY-EM ESPLANA</h1></div> 
+
+      <div class="social col">
         <ul>
-          <li>about</li>
-          <li>portfolio</li>
-          <li>blog</li>
-          <li>contact</li>
+          <li>
+            <a href="http://www.facebook.com/jmesplana"><img class="icon" src="src/img/facebook_icon.svg" target="_blank" alt="facebook icon"></a>
+          </li>
+          <li>
+            <a href="http://www.twitter.com/jeyem"><img class="icon" src="src/img/twitter_icon.svg" target="_blank" alt="twitter icon"></a>
+          </li>
+          <li>
+            <a href="http://www.github.com/hammerhead79"><img class="icon" src="src/img/github_icon.svg" target="_blank" alt="github icon"></a>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/in/jmesplana"><img class="icon" src="src/img/linkedin_icon.svg" target="_blank" alt="linkedin icon"></a>
+          </li>
         </ul>
-      </div> <!-- end navigation -->
-
-      <div id="about">
-
-        <img class="hero" src="src/img/placeholder.jpg" alt="hero">
-
-        <div class="content">
-          <h2>About</h2>
-          <p>I'm a UX/UI Designer and Front End Developer from Montreal, Quebec Canada.</p>
-          <p>I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>          
-        </div> <!-- content wrapper -->
-
-        <div class="next-btn"></div>
-        
-      </div> <!-- end about -->
-
-      <div id="portfolio">
-        <h2>Portfolio</h2>
       </div>
+    </div> <!-- sticky-nav end -->
 
-    </div> <!-- end wrapper -->
 
+    <div id="side-menu">
+
+        <div class="close-btn" >
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+            <style type="text/css">
+                .st0{fill:none;stroke:#FFFFFF;stroke-width:0.9275;stroke-miterlimit:10;}
+                .st1{fill:#FFFFFF;}
+            </style>
+            <polygon class="st1" points="15.2,13.7 11.2,9.8 9.9,11.1 13.9,15 9.9,18.9 11.2,20.2 15.2,16.3 19.1,20.2 20.4,18.9 16.5,15
+                20.4,11.1 19.1,9.8 "/>
+          </svg>
+        </div> <!-- end close-btn -->
+
+        <h2>JEY-EM ESPLANA</h2>
+
+        <div class="navigation">
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div> <!-- end navigation -->
+
+        <div class="social">
+            <ul>
+
+              <li>
+                <a href="http://www.facebook.com/jmesplana"><img class="icon" src="src/img/facebook_icon.svg" target="_blank" alt="facebook icon"></a>
+              </li>
+
+              <li>
+                <a href="http://www.twitter.com/jeyem"><img class="icon" src="src/img/twitter_icon.svg" target="_blank" alt="twitter icon"></a>
+              </li>
+
+              <li>
+                <a href="http://www.github.com/hammerhead79"><img class="icon" src="src/img/github_icon.svg" target="_blank" alt="github icon"></a>
+              </li>
+
+              <li>
+                <a href="http://www.linkedin.com/in/jmesplana"><img class="icon" src="src/img/linkedin_icon.svg" target="_blank" alt="linkedin icon"></a>
+              </li>
+
+            </ul>
+          </div> <!-- end social -->
+  
+          
+    </div> <!-- end side-menu -->
+
+
+    <div id="main">
+
+      <div class="wrapper">
+
+
+        <div id="header">
+
+          <div class="menu-btn col"></div>
+
+          <div class="logo col">
+            <h1>JEY-EM ESPLANA</h1>
+          </div>
+
+          <div class="social col">
+            <ul>
+
+              <li>
+                <a href="http://www.facebook.com/jmesplana"><img class="icon" src="src/img/facebook_icon.svg" target="_blank" alt="facebook icon"></a>
+              </li>
+
+              <li>
+                <a href="http://www.twitter.com/jeyem"><img class="icon" src="src/img/twitter_icon.svg" target="_blank" alt="twitter icon"></a>
+              </li>
+
+              <li>
+                <a href="http://www.github.com/hammerhead79"><img class="icon" src="src/img/github_icon.svg" target="_blank" alt="github icon"></a>
+              </li>
+
+              <li>
+                <a href="http://www.linkedin.com/in/jmesplana"><img class="icon" src="src/img/linkedin_icon.svg" target="_blank" alt="linkedin icon"></a>
+              </li>
+
+            </ul>
+          </div> <!-- end social -->
+
+        </div> <!-- end header -->
+    
+
+        <div id="navigation">
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div> <!-- end navigation -->
+  
+
+        <div id="about" class="section">
+  
+          <img class="hero" src="src/img/placeholder.jpg" alt="hero">
+  
+          <div class="content">
+            <h2>About</h2>
+            <p>I'm a UX/UI Designer and Front End Developer from Montreal, Quebec Canada.</p>
+            <p>I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>          
+          </div> <!-- content wrapper -->
+  
+          <div class="next-btn"></div>
+          
+        </div> <!-- end about -->
+
+
+    
+        <div id="portfolio" class="section">
+
+          <h2>Portfolio</h2>
+          
+          <div class="list">
+
+            <div class="row">
+
+              <div class="thumbnail">
+                <img src="src/img/placeholder.jpg">
+                <div class="desc">
+                  <h3>Portfolio 1</h3>
+                  <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs.</p>
+                </div>
+              </div> <!-- thumbnail end -->    
+              
+              <div class="thumbnail">
+                <img src="src/img/placeholder.jpg">
+                <div class="desc">
+                  <h3>Portfolio 2</h3>
+                  <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs.</p>
+                </div>
+              </div> <!-- thumbnail end -->
+            </div> <!-- row end -->
+
+            <div class="row">
+                
+                  <div class="thumbnail">
+                    <img src="src/img/placeholder.jpg">
+                    <div class="desc">
+                        <h3>Portfolio 3</h3>
+                        <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs.</p>
+                      </div>
+                  </div> <!-- thumbnail end --> 
+      
+                  <div class="thumbnail">
+                    <img src="src/img/placeholder.jpg">
+                    <div class="desc">
+                        <h3>Portfolio 4</h3>
+                        <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs.</p>
+                      </div>
+                  </div> <!-- thumbnail end --> 
+               
+                  <div class="thumbnail">
+                    <img src="src/img/placeholder.jpg">
+                    <div class="desc">
+                        <h3>Portfolio 5</h3>
+                        <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs.</p>
+                      </div>
+                  </div> <!-- thumbnail end --> 
+                </div> <!-- row end -->
+
+
+          </div> <!-- project list end -->
+
+
+
+        </div> <!-- portfolio end -->
+
+
+
+        <div id="blog" class="section">
+
+          <h2>Blog</h2>
+
+          <div class="list">
+
+            <div class="row">
+
+              <div class="post">
+                <div class="title"><h3>Ham corned beef kevin biltong</h3></div>
+                <div class="info">
+                  <p>
+                      August 27, 2017 / by <span>Jey-em Esplana</span>
+                  </p>
+                </div>
+                <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs. Bacon kevin drumstick meatloaf. Chuck turkey pastrami corned beef biltong chicken tail beef ribs. </p>
+              </div>
+
+            </div> <!-- row end -->
+
+              <div class="row">
+
+              <div class="post">
+                <div class="title"><h3>Ham corned beef kevin biltong</h3></div>
+                <div class="info">
+                  <p>
+                      August 27, 2017 / by <span>Jey-em Esplana</span>
+                  </p>
+                </div>
+                <p>Beef ribs pork cow ham hock alcatra brisket tenderloin pig kevin fatback short ribs. Bacon kevin drumstick meatloaf. Chuck turkey pastrami corned beef biltong chicken tail beef ribs. </p>
+              </div>
+
+            </div> <!-- row end -->
+
+          </div> <!-- post list end -->
+
+        </div> <!-- blog end -->
+
+
+
+        <div id="contact" class="section">
+
+            <h2>Contact</h2>
+
+        </div> <!-- contact end -->
+
+
+
+        <div id="footer">
+          <div class="copyright">
+              <p>© 2017 Jeyem Esplana. All rights reserved.</p>          
+          </div>
+        </div>
+    
+      </div> <!-- end wrapper -->
+
+    </div> <!-- main end -->
+    
   </div> <!-- end app -->
+
   <script src="src/app.js"></script>
+
 </body>
 </html>
